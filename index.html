@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>requirejs-demo</title>
+        <link rel="stylesheet" type="text/css" href="./js/plugin/swiper/css/swiper.min.css">
+        <script type="text/javascript" data-main="./js/app.js" src="./js/require.js"></script>
+    </head>
+    <style media="screen">
+    .swiper-container {
+        width: 600px;
+        height: 300px;
+        }
+        .swiper-slide {
+            color: #fff;
+            line-height: 300px;
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+    <body>
+        <div class="swiper-container">
+           <div class="swiper-wrapper">
+               <div class="swiper-slide" style="background:#4390EE;">Slide 1</div>
+               <div class="swiper-slide" style="background:#CA4040;">Slide 2</div>
+               <div class="swiper-slide" style="background:#FF8604;">Slide 3</div>
+           </div>
+           <!-- 如果需要分页器 -->
+           <div class="swiper-pagination"></div>
+
+           <!-- 如果需要导航按钮 -->
+           <!-- <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div> -->
+
+           <!-- 如果需要滚动条 -->
+           <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </body>
+</html>

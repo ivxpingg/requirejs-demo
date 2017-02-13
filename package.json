@@ -1,0 +1,26 @@
+{
+  "name": "requirejs-demo",
+  "version": "1.0.0",
+  "description": "requirejs demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivxpingg/requirejs-demo.git"
+  },
+  "keywords": [
+    "requirejs"
+  ],
+  "author": "sgj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivxpingg/requirejs-demo/issues"
+  },
+  "homepage": "https://github.com/ivxpingg/requirejs-demo#readme",
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "swiper": "^3.4.1"
+  }
+}
